@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/txtNombres"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginHorizontal="10dp"
+    android:backgroundTint="@color/black"
+    android:ba
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingVertical="15sp"
+        android:text="FastFood"
+        android:textColor="@color/design_default_color_primary_dark"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:hint="Nombre: "
+        android:textColor="@color/design_default_color_primary_dark"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/txtNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/design_default_color_primary_dark"
+        android:layout_marginHorizontal="10dp"
+        android:hint="Ingresar su nombre"
+        android:textSize="20sp" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp" />
+    //android:entries="@array/food"
+
+    <TextView
+        android:id="@+id/txtOpciones"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Lista de opciones" />
+
+    <CheckBox
+        android:id="@+id/chkgaseosa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Gaseosa"
+        android:textColor="#EDE5E5" />
+
+    <CheckBox
+        android:id="@+id/chkensalada"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ensalada" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/design_default_color_secondary"
+        android:text="Calcular"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="24sp" />
+
+
+</LinearLayout>
+
+
+

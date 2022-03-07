@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">APPStoreFood</string>
+    <string name="fastfood">FasFood</string>
+    <string name="txt_Nombres">Nombre:  </string>
+<string name="IngresaDato">Ingresar su Nombre</string>
+    <string name="combobox">Seleccionar</string>
+    <string name="txt_operaciones">Opciones para agregar</string>
+    <string name="chk_gaseosa">Gaseosa</string>
+    <string name="chk_ensalada">Ensalada</string>
+    <string name="button">Calcular</string>
+</resources>
